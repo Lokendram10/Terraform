@@ -14,7 +14,3 @@ terraform {
     dynamodb_table = "terraform-lock-table" # for state locking
   }
 }
-
-provider "aws" {
-  region = var.ec2_region # Mumbai region
-}
